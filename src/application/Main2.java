@@ -24,11 +24,11 @@ public class Main2 {
             System.out.println(d);
         }
 
-        /*
         System.out.println("\n=== TEST 3: insert =======");
         Department newDepartment = new Department(null, "Music");
         departmentDao.insert(newDepartment);
         System.out.println("Inserted! New id: " + newDepartment.getId());
+
 
         System.out.println("\n=== TEST 4: update =======");
         Department dep2 = departmentDao.findById(1);
@@ -36,12 +36,12 @@ public class Main2 {
         departmentDao.update(dep2);
         System.out.println("Update completed");
 
+
         System.out.println("\n=== TEST 5: delete =======");
         System.out.print("Enter id for delete test: ");
         int id = sc.nextInt();
         departmentDao.deleteById(id);
         System.out.println("Delete completed");
-         */
 
         sc.close();
     }
